@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body h1,
+h2 {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.box img {
+  width: 200px;
+  height: 200px;
+}
+
+.red-box {
+  color: red;
+}
+.blue-box {
+  color: blue;
+}
+.orange-box {
+  color: orange;
+}
+.green-box {
+  color: green;
+}
+.yellow-box {
+  color: yellow;
+}
